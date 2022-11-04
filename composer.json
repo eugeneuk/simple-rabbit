@@ -5,6 +5,7 @@
     "require": {
         "php-amqplib/php-amqplib": ">=2.9.0"
     },
+    "minimum-stability": "stable",
     "license": "MIT",
     "autoload": {
         "psr-4": {
