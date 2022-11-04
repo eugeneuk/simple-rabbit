@@ -1,0 +1,20 @@
+{
+    "name": "eugene/simple-rabbit",
+    "description": "Simple wrapper for Rabbitmq",
+    "type": "library",
+    "require": {
+        "php-amqplib/php-amqplib": ">=2.9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eugene\\SimpleRabbit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugene Hordeyev",
+            "email": "zhenyauk@gmail.com"
+        }
+    ]
+}
